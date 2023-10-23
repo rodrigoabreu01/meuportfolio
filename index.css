@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+header ul li a{
+    font-size: 30px;
+}
+header ul li a:hover{
+    font-size: 33px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .container1{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 68%;
+    height: 800px;
+    border-bottom: 7px solid white;
+}
+main .container1::before{
+    content: "";
+    width: 613px;
+    height: 750px;
+    background-image: url("pessoa.jfif");
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    opacity: 0.7;
+    left: 688px;
+}
+main .container1 .col1 {
+    padding-top: 120px;
+    left: 0;
+    z-index: 2;
+}
+main .container1 .col1 p{
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+main .container1 .col1 p span{
+    border-bottom: 8px solid blue;
+}
+main .container1 .col1 h2{
+    font-size: 18px;
+    margin-bottom: 250px;
+}
+main .container1 .col1 h3 a{
+    text-decoration: none;
+    border-bottom: 7px solid blue;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+}
