@@ -66,7 +66,7 @@ main .container1 .col1 p{
     font-weight: bold;
 }
 main .container1 .col1 p span{
-    border-bottom: 8px solid blue;
+    border-bottom: 4px solid blue;
 }
 main .container1 .col1 h2{
     font-size: 18px;
@@ -74,7 +74,7 @@ main .container1 .col1 h2{
 }
 main .container1 .col1 h3 a{
     text-decoration: none;
-    border-bottom: 7px solid blue;
+    border-bottom: 3px solid blue;
 }
 footer{
     bottom: 0;
