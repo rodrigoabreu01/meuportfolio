@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
     box-sizing: border-box;
     color: white;
 }
@@ -66,7 +66,7 @@ main .container1 .col1 p{
     font-weight: bold;
 }
 main .container1 .col1 p span{
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid rgb(0, 255, 200);
 }
 main .container1 .col1 h2{
     font-size: 18px;
@@ -74,7 +74,7 @@ main .container1 .col1 h2{
 }
 main .container1 .col1 h3 a{
     text-decoration: none;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid rgb(0, 255, 200);
 }
 footer{
     bottom: 0;
@@ -99,14 +99,20 @@ footer{
         height: 600px;
         border-bottom: 3px solid white;
     }
+    main .container1 header{
+        margin-top: 20px;
+    }
+    main .container1 header ul{
+        margin-top: 20px;
+    }
     main .container1:before{
         content: "";
-        width: 140px;
+        width: 180px;
         background-size: contain;
         background-image: url("pessoa.jfif");
         background-repeat: no-repeat;
-        left: 31%;
-        top: 15%;
+        left: 27%;
+        top: 19%;
     }
     main .container1 header{
         display: block;
@@ -114,31 +120,32 @@ footer{
         font-size: 18px;
         text-align: center;
     }
-    header ul{
+    header ul {
         display: flex;
         justify-content: center;
-        font-size: 18px;
-        margin: 0 auto;
+    }
+    header ul li a{
+        font-size: 16px;
     }
     main .container1 .col1{
-        padding-top: 300px;
+        padding-top: 350px;
         position: absolute;
         z-index: 1;
-        text-align: center;
+        text-align:center;
         left: 0px;
         width: 100%;
     }
     main .container1 .col1 p{
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 25px;
         font-weight: bold;
     }
     main .container1 .col1 h2{
-        font-size: 16px;
-        margin-bottom: 18px;
+        font-size: 12px;
+        margin-bottom: 50px;
     }
     main .container1 .col1 h3{
-        font-size: 14px;
+        font-size: 20px;
     }
     main .container2{
         position: relative;
